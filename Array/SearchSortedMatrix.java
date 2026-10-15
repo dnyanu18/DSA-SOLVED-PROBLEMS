@@ -3,7 +3,7 @@ package Array;
 public class SearchSortedMatrix {
 
     public static boolean staircaseSearch(int arr[][],int key){
-        int row=arr[0].length-1;
+        int row=arr.length-1;
         int col=0;
         while(col < arr.length && row>=0){
             if(arr[row][col] == key){
